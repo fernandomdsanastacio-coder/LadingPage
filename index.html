@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.google.com" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <title>AboutBuz</title>
+</head>
+<body>
+<div class = "custom_div">
+    <!-- Video do jogo -->
+    <div id = "imagem-fundo"></div> 
+        <!-- Topnav-->
+         <nav>
+            <a href="#box-2" id="nav-logo">
+                <img src="Imagens\Logo.png" alt="Logo do jogo" width="150" height="30">
+            </a>
+            <div class="nav-links">
+                <a href="#Home">Home</a>
+                <a href="#Sobre">About the Game</a>
+                <a href="#Galeria">Gallery</a>                
+                <a href="#Desenvolvedor">Developer</a>
+            </div>
+         </nav>
+
+         <section id="Home">
+            
+            <h1 id="home-h1" style="color: rgb(255, 255, 255);">Welcome to AboutBuz</h1>
+            <video id="home-video" width="100%" height="100%" autoplay muted loop>
+                <source src="videos\TRAILER.mp4" type="video/mp4">
+            </video>
+        </section>
+
+       
+        <section id="Sobre">
+                                <!-- Sobre o jogo -->
+        <div id="box-2-div-logo">
+                                <!-- Logo do jogo -->
+            <img id="topnav-img" src="Imagens\Logo.png" width="400" height="80">
+        </div>
+        <h2 id= "box-2-h2" style="color: rgb(255, 255, 255);">
+            Discover a ruined world
+        </h2>
+            <div id="sobre-div">
+                               <!-- Informações sobre o jogo -->
+                <p style="color: rgb(255, 255, 255);">AboutBuz is an exciting adventure game set in a post-apocalyptic world. Players will explore a vast, ruined landscape filled with mysteries and challenges. With stunning visuals and engaging gameplay, AboutBuz offers an immersive experience that will keep you entertained for hours.</p>
+                <h4 id="box-2-h4" style="color: rgb(255, 255, 255);">
+                Release Date: 
+                </h4>
+                <a href="https://drive.google.com/drive/folders/1GN_2mtceDBJ6wNaXp2DpsDpkUkf1m_gz?usp=drive_link" target="_blank" id="box-2-a" style="color: rgb(255, 255, 255);">Download</a>
+            </div>   
+        </section>
+        <section id="Galeria">
+                                <!-- Galeria de imagens -->
+            <div class="carousel-wrapper">
+            <div class="carousel" id="carousel">
+                <div class="carousel-track" id="track">
+
+                <div class="carousel-slide">
+                    <img src="Imagens/Cartaz.jpg" alt="Cartaz" width="300" height="400">
+                </div>
+                <div class="carousel-slide">
+                    <p>Slide 2</p>
+                </div>
+                <div class="carousel-slide">
+                    <p>Slide 3</p>
+                </div>
+
+                </div>
+                    <button class="carousel-btn btn-prev" id="prev">&#8249;</button>
+                    <button class="carousel-btn btn-next" id="next">&#8250;</button>
+            </div>
+                <div class="indicators" id="indicators"></div>
+            </div>
+        </section>
+        <section id="Desenvolvedor">
+                                <!-- Informações de contato -->
+            <h2 id="Desenvolvedor-h2" style="color: rgb(255, 255, 255);">Contact</h2>
+            <div id="Desenvolvedor-div">
+        <div id="final-box">
+                                <!-- GitHub link -->
+            <a href="https://github.com/fernandomdsanastacio-coder" target="_blank" id="finalnav-a-1">
+                <img src="Imagens\GitHubIcon.png" width="60" height="60">
+            </a>
+        </div>
+                <p id="finalnav-p-1" style="color: rgb(255, 255, 255);">For inquiries and updates about AboutBuz, please contact at: <a href="fernando.m.d.s.anastacio@gmail.com" style="color: rgb(255, 255, 255);">fernando.m.d.s.anastacio@gmail.com</a></p>
+            </div>
+        </section>
+    </div>
+</div>
+</body>
+</html>
